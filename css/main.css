@@ -1,13 +1,3 @@
-/* ====================================
-// css variables
-// ==================================== */
-
-:root {
-}
-
-/* ====================================
-// reset rules
-// ==================================== */
 
 * {
   box-sizing: border-box;
@@ -26,10 +16,19 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  margin: 0 auto;
+  width: 320px;
+}
+
+nav{
+  text-align: center;
 }
 
 a {
   color: inherit;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
 }
 
 img,
@@ -39,6 +38,10 @@ video {
   vertical-align: text-top;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+}
+
